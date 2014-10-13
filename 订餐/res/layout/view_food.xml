@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     >
+
+    <ImageView
+       android:layout_marginTop="5dp"
+        android:id="@+id/iv_food_icon"
+        android:layout_width="match_parent"
+        android:layout_height="145dp" 
+        android:src="@drawable/food"/>
+
+    <TextView
+        android:id="@+id/tv_food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/food_name" 
+        android:text="红烧肉"/>
+    
+    <TextView 
+        android:id="@+id/tv_food_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/food_name" 
+        android:text="￥80"/>
+
+</LinearLayout>

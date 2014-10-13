@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="OptionView">
+        <attr name="icon"  format="reference|color"></attr>
+        <attr name="title"  format="string"></attr>
+    </declare-styleable>
+
+</resources>

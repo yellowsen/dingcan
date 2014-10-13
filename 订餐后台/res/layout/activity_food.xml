@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/et_food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="食物名称" />
+
+    <EditText
+        android:id="@+id/et_food_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_food_name"
+        android:hint="食物价格"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_food_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_food_price"
+        android:text="食物图标" />
+
+    <TextView
+        android:id="@+id/tv_food_icon_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_food_icon" />
+
+    <Button
+        android:id="@+id/btn_food_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_food_icon_path"
+        android:text="食物图片" />
+
+    <TextView
+        android:id="@+id/tv_food_imgs_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_food_img" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="提交" />
+
+</RelativeLayout>
